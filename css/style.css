@@ -1,0 +1,190 @@
+body {
+    color: #6c757d;
+    font-family: 'Great Vibes'
+}
+
+
+/* FONTS */
+
+@font-face {
+    font-family: firstFont;
+    src: url(fonts/RWmMoKWR9v4ksMfaWd_JN9XFiaQ.woff2);
+}
+
+@font-face {
+    font-family: secondFont;
+    src: url(fonts/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff2);
+}
+
+@font-face {
+    font-family: thirdFont;
+    src: url(fonts/KFOmCnqEu92Fr1Mu4mxK.woff2);
+}
+
+.firstFont {
+    font-family: firstFont;
+}
+
+.secondFont {
+    font-family: secondFont;
+}
+
+.thirdFont {
+    font-family: thirdFont;
+}
+
+
+/* NAVBAR */
+
+.top-header {
+    background-image: url("../img/slideee.png");
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.activee {
+    color: #c5ab6b !important;
+    text-decoration: underline;
+}
+
+nav a {
+    color: #ffffff !important;
+}
+
+nav a:hover {
+    color: #c5ab6b !important;
+    text-decoration: underline !important;
+}
+
+
+/* HOME */
+
+.top-pic img {
+    width: 110px;
+}
+
+#top-second div h1 {
+    font-size: 5em;
+}
+
+.top-button {
+    border-radius: 20px;
+    padding: 12px 30px 12px 30px;
+    border: 1px solid transparent;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #c5ab6b;
+}
+
+.top-button:hover {
+    color: #c5ab6b !important;
+    background-color: #ffffff !important;
+    text-decoration: none;
+}
+
+.top-button-small {
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+    border: 1px solid transparent;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #c5ab6b;
+}
+
+.top-button-small:hover {
+    color: #ffffff !important;
+    background-color: #bba367 !important;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 992px) {
+    .top-pic {
+        display: none;
+    }
+    #top-second div h1 {
+        font-size: 2.5em;
+    }
+    #top-second div h2 {
+        font-size: 1.5em;
+    }
+    #index-aboutus-top {
+        display: none;
+    }
+    .dish-img {
+        display: none;
+    }
+}
+
+.index-aboutus-top-pic img {
+    width: 250px;
+}
+
+
+/* seasonal offers */
+
+#index-seasonal-offers-bg,
+.light-bg {
+    background-color: #e6e4e4;
+}
+
+.font-size-three {
+    font-size: 3em;
+}
+
+.border-bottom-dashed {
+    border-bottom: 1px dashed #6c757d;
+}
+
+.border-top-dashed {
+    border-top: 1px dashed #6c757d;
+}
+
+.vh-20 {
+    height: 20vh !important;
+}
+
+
+/* party with us */
+
+.index-bg {
+    background-image: url("../img/press.png");
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.trans {
+    transition: all 0.2s ease-in-out;
+}
+
+.trans:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+/* EVENTS */
+
+#table-booking {
+    background-image: url("../img/press.png");
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.list-style-none {
+    list-style: none;
+}
+
+.bg-hover:hover {
+    background-color: #000000;
+    opacity: 0.8;
+}
+
+.galery-bg-hover:hover {
+    background-color: #bba367;
+    opacity: 0.7;
+}
